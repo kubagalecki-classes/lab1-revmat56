@@ -6,7 +6,7 @@ struct wektor
     void drukuj_wektor() { std::cout << "Wspolrzedne wektora, x: " << x << " y: " << y << "\n" ; }
     double x;
     double y;
-    double norm() { return sqrt(x*x+y*y);}
+    double norm() const { return sqrt(x*x+y*y);}
 };
 
 int main()
